@@ -1,0 +1,30 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+build
+
+
+# idea config
+.idea
+
+# old stages
+/My First Project with Java/*
+!/My First Project with Java/task/
+/My First Project with Java/task/*
+!/My First Project with Java/task/src
+
+# Project exclude paths
+/Topics/Comparing values. Relational operators/Check the sum/out/
+/Topics/Comparing values. Relational operators/Check the sum/out/production/classes/
+/Topics/For-loop/Arithmetic average/out/
+/Topics/For-loop/Arithmetic average/out/production/classes/
+/Topics/For-loop/Generate an inverted pyramid from asterisks/out/
+/Topics/For-loop/Generate an inverted pyramid from asterisks/out/production/classes/
+/Topics/For-loop/Size of parts/out/
+/Topics/For-loop/Size of parts/out/production/classes/
+/Topics/Introduction to Java/Hello/out/
+/Topics/Introduction to Java/Hello/out/production/classes/
+/Topics/While and do-while loops/The sum of elements/out/
+/Topics/While and do-while loops/The sum of elements/out/production/classes/
