@@ -1,0 +1,24 @@
+<h2>Discovering custom exceptions in Java</h2>
+<div class="step-text">
+<p>Consider the following Java class definitions.</p><pre><code class="java">public class CustomException extends Exception {
+
+    public CustomException(String message) {
+        super(message);
+    }
+
+    public CustomException(String message, Throwable cause) {
+        super(message, cause);
+    }
+
+}</code></pre><pre><code class="java">public class Main {
+
+    public static void main(String[] args) {
+        try {
+            throw new CustomException("This is a custom exception!");
+        } catch (CustomException e) {
+            e.printStackTrace();
+        }
+    }
+
+}</code></pre><p>What statements are true about custom exceptions in Java?</p>
+</div>
